@@ -1,0 +1,14 @@
+all:
+  children:
+    ubuntu:
+      hosts:
+        ubuntu-node1:
+        ubuntu-node2:
+    rocky:
+      hosts:
+        rocky-node1:
+        rocky-node2:
+    servers:
+      children:
+        ubuntu:
+        rocky:

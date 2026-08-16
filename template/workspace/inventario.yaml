@@ -2,12 +2,10 @@ all:
   children:
     ubuntu:
       hosts:
-        ubuntu-node1:
-        ubuntu-node2:
+        ubuntu-node:
     rocky:
       hosts:
-        rocky-node1:
-        rocky-node2:
+        rocky-node:
     servers:
       children:
         ubuntu:
